@@ -1,16 +1,17 @@
 # Обертка в теги
 
-# def tags_s():
-#     def inner(s):
-#         return '<h1>' + s + '</h1>'
-#
-#     return inner
-#
-#
-# s = input()
-# h = tags_s()
-# print(h(s))
+def tags_s():
+    def inner(s):
+        return '<h1>' + s + '</h1>'
 
+    return inner
+
+
+s = input()
+h = tags_s()
+print(h(s))
+
+# Словарь
 #dict_xo = {1:'1', 2:'2', 3:'3', 4:'4', 5:'5', 6:'6', 7:'7', 8:'8', 9:'9'}
 # print(dict_xo)
 # print(*dict_xo)
